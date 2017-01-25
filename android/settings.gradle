@@ -1,0 +1,3 @@
+rootProject.name = 'react_native_dva_sample'
+
+include ':app'
