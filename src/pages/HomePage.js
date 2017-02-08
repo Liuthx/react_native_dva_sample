@@ -13,7 +13,6 @@ class HomePage extends Component {
             <View style={{flex:1, backgroundColor:'white'}}>
                 <NavBar navigator={this.props.navigator} title="首页"/>
                 <View style={{flex:1, alignItems:'center', justifyContent:'center'}}>
-                    <Text style={{marginBottom:20}}>导航测试</Text>
                     <Text
                         style={{marginBottom:20}}
                         onPress={()=>{

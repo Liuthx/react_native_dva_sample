@@ -13,23 +13,17 @@ class TestPage extends Component {
 
     render() {
         return (
-            <View style={{flex:1, backgroundColor:'white'}}>
-                <NavBar navigator={this.props.navigator} title="测试页面"/>
+            <View style={{flex:1, backgroundColor:'white', }}>
+                <NavBar navigator={this.props.navigator} title="测试页"/>
                 <View>
-                    <Text>{this.props.text}</Text>
+                    <Text>我是测试页</Text>
+                    <Text>我是测试页</Text>
+                    <Text>我是测试页</Text>
                 </View>
             </View>
         );
     }
 
-    onDidFocus() {
-        log('test onDidFocus');
-    }
-
-    onBackAndroid() {
-        log('test android back');
-        return true;    // true 不退出  false退出app
-    }
 }
 
 // export default TestPage;
